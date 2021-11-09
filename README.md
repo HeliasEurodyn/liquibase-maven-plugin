@@ -4,7 +4,7 @@ This project provides an easy way to generate Liquibase ChangeLogs from Database
 <br>The chapter <b>Generate Changelog File from Database</b> explains how to generate a Changelog from a database. 
 <br>While the chapter <b>Generate Diff Changelog File from 2 Databases differences</b> explains how to generate a Changelog from 2 database differences.
 
-### Generate Changelog File from Database  
+## Generate Changelog File from Database  
 Navigate to the below file to setup the database & changelog properties
 ```sh
 /src/main/resources/db/liquibase.properties
@@ -29,7 +29,7 @@ mvn liquibase:generateChangeLog
 
 The Changelog file will be generated.
 
-### Generate Diff Changelog File from 2 Databases differences  
+## Generate Diff Changelog File from 2 Databases differences  
 Navigate to the below file to setup the database & changelog properties
 ```sh
 /src/main/resources/db/liquibase.properties
