@@ -17,7 +17,7 @@ password=
 driver=com.mysql.cj.jdbc.Driver
 ```
 
-On line 6 define the path & the name that your generated changelog file will have.
+On line 6 define the path & the name that your generated changelog file will save.
 ```sh
 outputChangeLogFile=src/main/resources/db/changelog/db.changelog-1.4.0.xml
 ```
@@ -50,7 +50,7 @@ password=
 driver=com.mysql.cj.jdbc.Driver
 ```
 
-Navigate to pom.xml and on line 67 define the path & the name that your generated changelog file will have.
+Navigate to pom.xml and on line 67 define the path & the name that your generated changelog file will save.
 ```sh
 <diffChangeLogFile>src/main/resources/db/changelog/db.changelog-diff.xml</diffChangeLogFile>
 ```
