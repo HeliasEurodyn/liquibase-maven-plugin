@@ -44,7 +44,7 @@ driver=com.mysql.cj.jdbc.Driver
 
 On lines 8 to 11 define your updated Database's path and credentials.
 ```sh
-url=jdbc:mysql://localhost:3306/sofia4
+url=jdbc:mysql://localhost:3306/sofia5
 username=root
 password=
 driver=com.mysql.cj.jdbc.Driver
